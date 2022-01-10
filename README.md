@@ -1,3 +1,4 @@
-- 👋 Hi, I’m @mulyant20
-- 👀 I’m interested in frontend
-- 🌱 I’m currently learning es6
+### 📃 Objectives
+- belajar tailwind css
+- Redesign TI-bdata & Responsi Bdata
+- Buat repo untuk dokumentasi belajar
