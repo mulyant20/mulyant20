@@ -17,7 +17,7 @@ export default function Home() {
     <>
       <Profile src="profile" />
       {!onload ? (
-        <div className="container max-w-[600px] mx-auto flex justify-between flex-wrap gap-y-6">
+        <div className="container max-w-[600px] mx-auto flex justify-center flex-wrap gap-y-6">
           <CardSkeleton />
           <CardSkeleton />
           <CardSkeleton />
