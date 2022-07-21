@@ -3,5 +3,30 @@
 @tailwind utilities;
 
 body {
-    background-color:#242526;
+    background-color: #242526;
+}
+
+.skeleton {
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate;
+}
+
+.text-popup {
+    animation: text-popup 150ms ease-in;
+}
+
+@keyframes text-popup {
+    from {
+        transform: translateY(40%);
+    }
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-color: hsl(180, 0%, 60%);
+    }
+
+    100% {
+        background-color: hsl(180, 10%, 80%);
+    }
 }
