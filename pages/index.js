@@ -12,12 +12,11 @@ export default function Home() {
     return () => clearInterval(interval);
   }, []);
 
-  console.log(onload);
   return (
     <>
       <Profile src="profile" />
       {!onload ? (
-        <div className="container max-w-[600px] mx-auto flex justify-center gap-2 flex-wrap gap-y-6">
+        <div className="container max-w-[600px] mx-auto flex justify-center gap-2 flex-wrap gap-y-2">
           <CardSkeleton />
           <CardSkeleton />
           <CardSkeleton />
