@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <>
-      <Profile src="profile" />
+      <Profile src="zenitsu" />
       {!onload ? (
         <div className="container max-w-[600px] mx-auto flex justify-center gap-2 flex-wrap gap-y-2">
           <CardSkeleton />
